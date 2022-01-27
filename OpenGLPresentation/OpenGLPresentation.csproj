@@ -51,11 +51,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ConsoleExtension.cs" />
-    <Compile Include="OpenGlProgram.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Shader.cs" />
-    <Compile Include="VertexArray.cs" />
     <Compile Include="Window.cs" />
   </ItemGroup>
   <ItemGroup>
