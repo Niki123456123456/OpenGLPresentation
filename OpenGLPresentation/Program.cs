@@ -6,7 +6,6 @@ namespace OpenGLPresentation
     {
         static void Main(string[] args)
         {
-            ConsoleExtension.Hide();
             using (Window window = new Window())
             {
                 window.Run();

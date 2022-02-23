@@ -10,17 +10,9 @@ namespace OpenGLPresentation
     {
         public Window() : base(1000, 1000, GraphicsMode.Default, "Test Window", GameWindowFlags.Default)
         {
-            
-        }
-
-        protected override void OnRenderFrame(FrameEventArgs frameEventArgs)
-        {
-            // lösche Farben aus Zwischenspeicher
+            // Todo setze den Hintergrund auf Rot
             GL.Clear(ClearBufferMask.ColorBufferBit);
-            // setze rote Hintergrundfarbe
             GL.ClearColor(1f, 0f, 0f, 1f);
-            // zeige Bild
-            SwapBuffers();
         }
     }
 }
