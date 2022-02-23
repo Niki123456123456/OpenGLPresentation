@@ -1,4 +1,4 @@
-﻿#version 330
+﻿#version 140
 precision highp float;
 
 attribute vec4 position;

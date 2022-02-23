@@ -1,4 +1,4 @@
-﻿#version 330
+﻿#version 140
 precision highp float;
 
 varying lowp vec4 vColor;
